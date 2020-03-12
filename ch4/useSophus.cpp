@@ -58,5 +58,9 @@ int main(int argc, char **argv) {
   Sophus::SE3d SE3_updated = Sophus::SE3d::exp(update_se3) * SE3_Rt;
   cout << "SE3 updated = " << endl << SE3_updated.matrix() << endl;
 
+
+  for(uint_t i(); i < 100; i++){
+      cout  << i << endl;
+  }
   return 0;
 }
